@@ -1,5 +1,5 @@
-const initializeStyles = () => {
-    const styleTag = document.createElement("style");
+let initializeStyles = () => {
+    let styleTag = document.createElement("style")
 
     styleTag.textContent = `
 html {
@@ -22,7 +22,7 @@ html {
  }
     `;
 
-    document.head.append(styleTag);
+    document.head.append(styleTag)
 };
 
-initializeStyles();
+initializeStyles()
