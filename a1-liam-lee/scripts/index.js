@@ -1,3 +1,4 @@
+import { albums, artists } from "./data.js"
 import createComponent from "./w1Components.js"
 
 let headerComponent = createComponent(
@@ -16,3 +17,6 @@ let subTextComponent = createComponent(
 
 headerComponent.appendChildComponent(subTextComponent)
 headerComponent.render()
+
+albums
+artists
