@@ -32,7 +32,8 @@ let createComponent = (
 
     let componentObject = {
         element: element,
-        render: () => document.body.append(element)
+        render: () => document.body.append(element),
+        appendChildComponent: (childComponent) => element.append(childComponent.element)
     }
     return componentObject
 }
