@@ -1,5 +1,7 @@
-// const createComponent = () => {
+import "./utils/initializeStylesheet.js";
 
-// };
+const createComponent = () => {
 
-// export default createComponent;
+};
+
+export default createComponent;
