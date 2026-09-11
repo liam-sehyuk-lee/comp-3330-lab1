@@ -40,7 +40,14 @@ artists.forEach((artist) => {
             "div",
             `<dt>Name: ${albumName}</dt><dd>Artist: ${name}</dd><dd>Year released: ${year}</dd>`,
             { color: "purple", size: "0.9rem", columns: 1 },
-            []
+            [
+                {
+                    type: "click",
+                    handler: (event) => {
+                        event.currentTarget.classList.toggle("liked")
+                    }
+                }
+            ]
         )
     })
 
