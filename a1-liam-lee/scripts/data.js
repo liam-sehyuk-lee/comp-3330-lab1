@@ -48,4 +48,3 @@ let artists = [
 ];
 
 export { albums, artists };
-
