@@ -23,6 +23,16 @@ let albums = [
         artistID: 1,
         name: "New Dimensional",
         year: 2014
+    },
+    {
+        artistID: 4,
+        name: "Lose Yourself",
+        year: 2002
+    },
+    {
+        artistID: 4,
+        name: "When I'm Gone",
+        year: 2005
     }
 ];
 
@@ -44,7 +54,14 @@ let artists = [
         artistID: 3,
         from: "Tokyo, Japan",
         year: 2016
+    },
+    {
+        name: "Eminem",
+        artistID: 4,
+        from: "Detroit, USA",
+        year: 1996
     }
 ];
 
 export { albums, artists };
+
